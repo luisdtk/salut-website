@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --bg-color: #262626;
+    --second-bg-color: black;
+    --text-color: white;
+    --main-color: #e8b666;
+}
+
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 7% 4rem;
+    background: rgba(0, 0, 0, 0.048);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3p solid transparent;
+}
+.navbar a:hover,
+.navbar a.acative{
+    color:var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+.detel {
+    margin-left: 8%;
+    margin-top: 11%;
+}
+
+.detel h1{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+span{
+    color: #e8b666;
+    font-size: 40px;
+}
+
+.detel p{
+    color: white;
+    line-height: 22px;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.detel a{
+    background: #3b3b3b;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 20px;
+    font-family:"Poppins", sans-serif;
+}
+
+.detel h3{
+    margin-left: 0%;
+    margin-top: 3%;
+    font-size: 16px;
+}
+
